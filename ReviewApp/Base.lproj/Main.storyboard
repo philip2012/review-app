@@ -131,6 +131,13 @@
                                 <rect key="frame" x="76" y="157" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDw-Hm-0PL">
+                                <rect key="frame" x="76" y="293" width="240" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qlr-uZ-Spe"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
@@ -138,6 +145,7 @@
                     <navigationItem key="navigationItem" id="BAm-AV-Fcg"/>
                     <connections>
                         <outlet property="peterLugerImage" destination="znW-bu-ehu" id="Sm5-Ia-cJ2"/>
+                        <outlet property="reviewLabel" destination="ZDw-Hm-0PL" id="nPC-RG-A4X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WSP-GH-sDT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -163,6 +171,13 @@
                                 <rect key="frame" x="76" y="157" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FK-nM-Xhd">
+                                <rect key="frame" x="76" y="293" width="240" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wmN-BX-aeN"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
@@ -170,11 +185,12 @@
                     <navigationItem key="navigationItem" id="Lre-xl-kjr"/>
                     <connections>
                         <outlet property="outbackSteakhouseImage" destination="80i-wd-sA4" id="Llv-jJ-oIo"/>
+                        <outlet property="reviewLabel" destination="2FK-nM-Xhd" id="T5l-Dl-0Om"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGP-E5-ja0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2378" y="-608"/>
+            <point key="canvasLocation" x="2377.8625954198474" y="-608.45070422535218"/>
         </scene>
         <!--Prime Rib View Controller-->
         <scene sceneID="XoU-4K-Pz0">
@@ -195,18 +211,26 @@
                                 <rect key="frame" x="76" y="157" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKy-GH-Gy4">
+                                <rect key="frame" x="76" y="293" width="240" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N3X-zX-jPP"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="04s-lN-Sqc"/>
                     <connections>
+                        <outlet property="reviewLabel" destination="PKy-GH-Gy4" id="t8D-3W-r5R"/>
                         <outlet property="sfoPrimeRibImage" destination="eZV-fc-lpq" id="nej-cn-QLy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h19-DS-G4P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1895" y="-1432"/>
+            <point key="canvasLocation" x="1893.8931297709923" y="-1432.3943661971832"/>
         </scene>
         <!--Farm To Smash View Controller-->
         <scene sceneID="4tE-Pv-IuM">
@@ -227,6 +251,13 @@
                                 <rect key="frame" x="76" y="157" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jf9-z9-rDN">
+                                <rect key="frame" x="76" y="293" width="240" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QL8-tv-55g"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
@@ -234,11 +265,12 @@
                     <navigationItem key="navigationItem" id="uch-y6-FER"/>
                     <connections>
                         <outlet property="farmToSmashImage" destination="MKF-DC-gbd" id="4dg-r9-EPZ"/>
+                        <outlet property="reviewLabel" destination="Jf9-z9-rDN" id="tpY-J9-6yh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ed3-PX-WYU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-16" y="-1409"/>
+            <point key="canvasLocation" x="-16.030534351145036" y="-1409.1549295774648"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dQ8-cS-ck3">
