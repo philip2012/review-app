@@ -11,6 +11,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let image: [UIImageView] = [outbackImage, peterLugerImage, sfoPrimeRibImage, farmToSmashImage]
+        image.forEach {
+            $0.contentMode = .scaleAspectFill
+            $0.layer.cornerCurve = .circular
+            $0.layer.cornerRadius = 20
+            $0.clipsToBounds = true
+        }
         outbackImage.image = UIImage(named: "outback_steakhouse")
         peterLugerImage.image = UIImage(named: "peter_luger_steakhouse")
         sfoPrimeRibImage.image = UIImage(named: "sfo_prime_rib_house")
